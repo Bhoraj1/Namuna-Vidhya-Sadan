@@ -1,5 +1,5 @@
 export const HomeSkeleton = () => (
-  <div className="relative h-[85vh] min-h-[520px] overflow-hidden bg-gray-50 animate-pulse">
+  <div className="relative h-[85vh] min-h-130 overflow-hidden bg-gray-50 animate-pulse">
     <div className="absolute inset-0 flex items-center px-6 sm:px-12 lg:px-24">
       <div className="max-w-2xl w-full space-y-5">
         <div className="flex items-center gap-3">

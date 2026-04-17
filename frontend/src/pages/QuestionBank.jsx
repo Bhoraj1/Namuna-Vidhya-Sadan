@@ -22,6 +22,8 @@ const QuestionBank = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const questionData = questionBank?.data || [];
+  console.log(baseUrl);
+  console.log(questionData);
 
   // Filter papers by search query
   const filteredPapers = useMemo(
