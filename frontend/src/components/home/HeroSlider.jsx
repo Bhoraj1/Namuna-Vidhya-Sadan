@@ -30,7 +30,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <section id="home" className="relative h-[85vh] min-h-[520px] overflow-hidden bg-slate-900">
+    <section id="home" className="relative h-[85vh] min-h-130 overflow-hidden bg-slate-900">
 
       {/* Background Swiper */}
       <Swiper
@@ -46,11 +46,11 @@ const HeroSlider = () => {
           <SwiperSlide key={slide.id}>
             <div className="relative h-full w-full">
               <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 transition-transform duration-[8000ms]"
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 transition-transform duration-8000"
                 style={{ backgroundImage: `url(${IMG_URL}/${slide.image_url})` }}
               />
               {/* Dark gradient overlay — stronger on left for text readability */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-black/20" />
+              <div className="absolute inset-0 bg-linear-to-r from-black/75 via-black/40 to-black/20" />
             </div>
           </SwiperSlide>
         ))}
