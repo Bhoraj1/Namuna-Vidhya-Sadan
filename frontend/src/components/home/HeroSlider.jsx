@@ -5,7 +5,6 @@ import { useGetSlidesQuery } from "../../redux/features/SiteSlice.js";
 import { Link } from "react-router-dom";
 import ErrorMessage from "../shared/ErrorMessage";
 import { HomeSkeleton } from "../skeleton/HomeSkeleton.jsx";
-import { slides as homeslider } from "../../data/heroSliderData.js";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
