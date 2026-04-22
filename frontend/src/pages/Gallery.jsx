@@ -6,7 +6,7 @@ import { useGetGalleryCategoryQuery } from "../redux/features/categorySlice.js";
 import HeroContainer from "../components/shared/HeroContainer";
 import { GallerySkeleton } from "../components/skeleton/HomeSkeleton";
 import ErrorMessage from "../components/shared/ErrorMessage";
-import bgImg from "../assets/img/bggallery.jpg";
+import bgImg from "../assets/img/gallery.jpg";
 import Button from "../components/ButtonComponent.jsx";
 import Pagination from "../components/shared/Pagination.jsx";
 

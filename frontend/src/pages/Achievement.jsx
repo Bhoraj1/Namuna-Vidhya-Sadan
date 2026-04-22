@@ -3,7 +3,7 @@ import { useGetAchivementQuery } from "../redux/features/academicSlice";
 import HeroContainer from "../components/shared/HeroContainer";
 import ErrorMessage from "../components/shared/ErrorMessage";
 import Pagination from "../components/shared/Pagination";
-import bgImg from "../assets/img/achive.jpg";
+import bgImg from "../assets/img/home/home14.jpg";
 
 // Number of achievements per page
 const ITEMS_PER_PAGE = 8;

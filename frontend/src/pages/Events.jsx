@@ -5,7 +5,7 @@ import { EventCard } from "../components/Event/EventCard";
 import { EventsSkeleton } from "../components/skeleton/HomeSkeleton";
 import ErrorMessage from "../components/shared/ErrorMessage";
 import Pagination from "../components/shared/Pagination";
-import bgImg from "../assets/img/student.jpg";
+import bgImg from "../assets/img/events.jpg";
 
 // Number of events per page
 const ITEMS_PER_PAGE = 8;
