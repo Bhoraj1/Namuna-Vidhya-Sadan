@@ -57,7 +57,7 @@ const HeroSlider = () => {
               <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 transition-transform duration-8000"
                 style={{
-                  backgroundImage: `url(${IMG_URL}/${slide.image_url})`,
+                  backgroundImage: `url(${IMG_URL}${slide.image_url})`,
                 }}
               />
               {/* Dark gradient overlay — stronger on left for text readability */}
